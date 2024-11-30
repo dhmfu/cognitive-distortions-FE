@@ -1,11 +1,11 @@
 {
-  "name": "congitive-distortions-fe",
+  "name": "cognitive-distortions-fe",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build",
-    "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/congitive-distortions-fe/browser",
+    "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions-fe/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

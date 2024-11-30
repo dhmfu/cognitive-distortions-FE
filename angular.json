@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "congitive-distortions-FE": {
+    "cognitive-distortions-FE": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/congitive-distortions-fe",
+            "outputPath": "dist/cognitive-distortions-fe",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "congitive-distortions-FE:build:production"
+              "buildTarget": "cognitive-distortions-FE:build:production"
             },
             "development": {
-              "buildTarget": "congitive-distortions-FE:build:development"
+              "buildTarget": "cognitive-distortions-FE:build:development"
             }
           },
           "defaultConfiguration": "development"
