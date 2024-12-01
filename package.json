@@ -6,6 +6,7 @@
     "start": "ng serve --open",
     "build": "ng build",
     "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions-fe/browser",
+    "build:prod": "npm run build -- --output-path docs --base-href /cognitive-distortions-FE/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
