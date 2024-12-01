@@ -1,12 +1,12 @@
 import { Component, ElementRef, viewChild } from '@angular/core';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { MatButton, MatButtonModule } from '@angular/material/button';
-import { RouterOutlet } from '@angular/router';
 import { filter, first, fromEvent, map, switchMap } from 'rxjs';
+import { DistortionCardComponent } from "../components/undefined/distortion-card/distortion-card.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MatButtonModule],
+  imports: [MatButtonModule, DistortionCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
