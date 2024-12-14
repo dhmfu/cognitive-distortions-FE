@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-distortion-card',
+  selector: 'distortion-card',
   imports: [MatCardModule],
   templateUrl: './distortion-card.component.html',
   styleUrl: './distortion-card.component.scss',
