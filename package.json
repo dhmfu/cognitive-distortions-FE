@@ -6,9 +6,10 @@
     "ng": "ng",
     "start": "ng serve",
     "start:open": "npm run start -- --open",
-    "build": "ng build",
-    "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions/browser",
+    "deploy": "npm run build:prod && git add . && git commit -m 'uploading artifacts' && git push",
     "build:prod": "npm run build -- --base-href /cognitive-distortions/ && node fix-output.js",
+    "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions/browser",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
