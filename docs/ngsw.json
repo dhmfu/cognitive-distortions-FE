@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1734180041545,
+  "timestamp": 1734185114681,
   "index": "/cognitive-distortions/index.html",
   "assetGroups": [
     {
@@ -55,7 +55,7 @@
     "/cognitive-distortions/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/cognitive-distortions/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/cognitive-distortions/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/cognitive-distortions/index.html": "713a18dcbbe7cbe0dd0186a0c6a33012b70ca15d",
+    "/cognitive-distortions/index.html": "e6a81382dfae191d160366d040db9d171410b9cf",
     "/cognitive-distortions/main-V4VJGL3K.js": "5c5a5add5c8378a6d462d83fcbf8553d0e3862ba",
     "/cognitive-distortions/manifest.webmanifest": "3a12d74e628a98c6e5f584d721039e6e3187966d",
     "/cognitive-distortions/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",

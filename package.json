@@ -1,5 +1,6 @@
 {
   "name": "cognitive-distortions",
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -7,7 +8,7 @@
     "start:open": "npm run start -- --open",
     "build": "ng build",
     "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions/browser",
-    "build:prod": "npm run build -- --output-path docs --base-href /cognitive-distortions/",
+    "build:prod": "npm run build -- --base-href /cognitive-distortions/ && node fix-output.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
