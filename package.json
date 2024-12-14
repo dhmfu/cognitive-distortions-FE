@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "ng serve",
+    "start:open": "npm run start -- --open",
     "build": "ng build",
     "build:serve": "npm run build && npx http-server -p 8080 -c-1 dist/cognitive-distortions-fe/browser",
     "build:prod": "npm run build -- --output-path docs --base-href /cognitive-distortions-FE/",
